@@ -9,7 +9,7 @@ const {
   userLeaves,
   getRoomUsers,
 } = require('./utils/users')
-
+//express app setup
 const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
